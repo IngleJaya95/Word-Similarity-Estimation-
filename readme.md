@@ -28,5 +28,5 @@ Since it can be the case that all the words are not present in vocabulary.
 Warning : Increasing data above a threshold in some particular codes can be dangerous for your system and
 you will be solely responsible for your actions. Python package like sklearn require large amount of memory for TF-IDF matrix. If convert from sparse storage format to normal numpy format.
 
-			
+Code is equally contributed by 1. me 2. Shubham Patel (https://github.com/lifeisshubh)			
 
