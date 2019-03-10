@@ -1,0 +1,12 @@
+import numpy as np 
+
+f = open("Model.txt","r")
+data  =f.read()
+list_of_vectors = data.split("\n")
+dict = {}
+for i in range(len(list_of_vectors)):
+	vector = list_of_vectors[i].split(" ")
+	word = vector[0]
+	embedding = vector(1,:)
+	dict.update({word:embedding})
+#default_data.update({'item3': 3})
